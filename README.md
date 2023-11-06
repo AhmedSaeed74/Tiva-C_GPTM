@@ -103,11 +103,6 @@ The `Periodic_Timer` component facilitates creating periodic timer interrupts us
 
 4. **Enable Interrupt**: Enable the timer interrupt:
 
-    ```c
-    Timer_Init(const GPTM_ConfigType * Config_Ptr,uint32_t milliSeconds);
-    ```
-
-5. **Interrupt Handling**: Implement the timer interrupt handler function to execute tasks at regular intervals.
 5. **Interrupt Handling**: Implement the timer interrupt handler function to execute tasks at regular intervals.
 
 6. **Main Application**: In your `main.c` file, you can call the necessary functions to set up and utilize the periodic timer as required for your application.
@@ -115,10 +110,3 @@ The `Periodic_Timer` component facilitates creating periodic timer interrupts us
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-
-*Note: This documentation provides an overview of the features and usage of the GPT_Edge_Time, PwmTimerMode, and Periodic_Timer components. For detailed implementation instructions and code examples, refer to the relevant header files and example code provided in this repository.*
